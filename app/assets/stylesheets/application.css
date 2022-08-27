@@ -13,3 +13,67 @@
  *= require_tree .
  *= require_self
  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  fotn-wight: bold;
+}
+
+strong {
+  font-weight: bold;
+}
+
+p {
+  display: block;
+  line-height: 18px;
+  margin: 33px;
+}
+
+
+
+/* indexページ */
+table {
+  
+}
+
+thead {
+  line-height: 24px;
+}
+
+tbody {
+  line-height: 26px;
+}
+
+td {
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #000000;
+}
+
+h2 {
+  margin: 16px 0;
+}
+
+h4 {
+  font-weight: normal;
+}
